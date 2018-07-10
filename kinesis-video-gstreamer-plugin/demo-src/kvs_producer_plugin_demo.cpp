@@ -22,7 +22,7 @@ LOGGER_TAG("com.amazonaws.kinesis.video.gstreamer");
 #define ACCESS_KEY_ENV_VAR "AWS_ACCESS_KEY_ID"
 #define SECRET_KEY_ENV_VAR "AWS_SECRET_ACCESS_KEY"
 #define SESSION_TOKEN_ENV_VAR "AWS_SESSION_TOKEN"
-#define DEFAULT_REGION_ENV_VAR "AWS_DEFAULT_REGION"
+#define DEFAULT_REGION_ENV_VAR "us-east-2"
 
 typedef struct _CustomData {
     GstElement *pipeline, *source, *source_filter, *encoder, *filter, *video_convert, *h264parse, *kvsproducer;
