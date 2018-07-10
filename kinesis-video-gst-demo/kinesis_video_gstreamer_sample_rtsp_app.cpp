@@ -24,7 +24,7 @@ LOGGER_TAG("com.amazonaws.kinesis.video.gstreamer");
 #define ACCESS_KEY_ENV_VAR "AWS_ACCESS_KEY_ID"
 #define SECRET_KEY_ENV_VAR "AWS_SECRET_ACCESS_KEY"
 #define SESSION_TOKEN_ENV_VAR "AWS_SESSION_TOKEN"
-#define DEFAULT_REGION_ENV_VAR "AWS_DEFAULT_REGION"
+#define DEFAULT_REGION_ENV_VAR "us-east-2"
 #define MAX_URL_LENGTH 65536 // https://stackoverflow.com/questions/417142/what-is-the-maximum-length-of-a-url-in-different-browsers
 
 namespace com {
